@@ -1,0 +1,488 @@
+
+
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    --primarycolor:#AC7088
+}
+#tittle{
+color:#AC7088 ;
+letter-spacing: 5px;
+padding: 0.5rem 20rem 0.5rem 2rem;
+font-family: 'Lobster', cursive;
+text-shadow:0.2rem 0.2rem 0.2rem black;
+
+font-size:3rem ;
+
+    
+}
+body{
+    scroll-behavior: smooth;
+}
+
+.menu{
+    display: inline-flex;
+    background-color: #fdfdfd;
+background-image: linear-gradient(43deg, #fdfdfd84 0%, #ac70886a, #fdfdfd4e 100%);
+ height: 5rem;
+    width: 100%;
+    
+}
+#list li{
+    padding: 1rem 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:1.3rem ;
+    padding-top: 1.5rem;
+    
+    
+}
+
+
+#list a{
+    color:var(--primarycolor)  
+}
+#list{
+    list-style-type:none ;
+    display: inline-flex;   
+}
+#head{
+    padding-right: 1rem;
+    text-shadow:0.2rem 0.2rem 0.2rem #AC7088 ;
+}
+#und{
+    text-decoration: none;
+}
+#und:hover{
+   
+    border-bottom: solid #AC7088 3px;
+    border-radius: 5%;   
+       
+}
+#und:active{
+   
+    border-bottom: solid #AC7088 3px;
+    border-radius: 5%;   
+       
+}
+
+.menu{
+    border-bottom:solid black 2px ;
+}
+.ima{
+    
+    margin-top:2rem ;
+    margin-left: 3rem;
+    
+}
+
+#hello{
+
+    font-family: 'Fredericka the Great', cursive;
+
+    font-size: 3rem;
+    word-spacing: 0.3rem;
+    letter-spacing:0.5rem ;
+    text-align: center;
+}
+#name1{/*font-family: 'Rubik Dirt', cursive;*/
+    font-size:4rem ;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+#crse{
+    font-family: 'Fredericka the Great', cursive;
+
+    word-spacing: 0.3rem;
+    letter-spacing:0.3rem ;
+    font-size:3rem ;
+text-align: center;
+
+}
+#mine{
+    float:right ;
+
+    
+    
+   outline:#AC7088 10px double;
+   outline-offset: 3px;
+    
+}
+#box2{
+    width:50rem ;
+    height: 33rem;
+    border: 0.8rem solid #AC7088 ;
+   
+    padding: 2rem;
+    border-top-left-radius: 20%;
+    padding-top: 3rem;
+    box-shadow: 1rem 1rem 0.5rem #ac708879;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    transition:border 5s linear;
+    
+}
+/*#box2:hover{
+border:black;
+
+}*/
+#follow{
+    font-size:2rem ;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+font-weight: bold;
+}
+.icons{
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 1rem;
+    padding:1rem 2rem;
+    padding-left:3rem ;
+    border-radius:30% ;
+    box-shadow:3px 3px 3px #AC7088;
+    background-color: #ac70885d;
+    height:4rem;
+    width:20rem;
+    
+}
+.fa-square-whatsapp:hover,.fa-square-facebook:hover,.fa-square-twitter:hover,.fa-square-instagram:hover{
+    font-size: 2.2rem ;
+}
+.icons:hover{background-color:#ac708848;
+
+}
+#cse{
+    padding-top: 3rem;
+   /* font-family: 'Rubik Dirt', cursive;*/
+   font-family: 'Fredericka the Great', cursive;
+    font-size:3rem ;
+
+}
+#about{
+    text-align: center;
+    font-family: 'Play', sans-serif;
+
+    color:#AC7088;
+    font-size: 3rem;
+    text-shadow:0.2rem 0.2rem 0.2rem  #AC7088;
+}
+.line1{
+    margin-top:2rem;
+    
+}
+#academic{
+    border-top: rgba(0, 0, 0, 0.22) solid 1px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+padding:2rem;
+    color:#AC7088 ;
+    font-size: 3rem;
+    text-shadow:0.2rem 0.2rem 0.2rem  #AC7088;
+    
+}
+.details{
+    height: 20rem;
+    width:70rem ;
+    margin-left: 7rem;
+    margin-right:7rem;
+    
+    
+    
+    
+}
+#heading1{
+    background-color: #AC7088;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.3rem;
+   
+    
+}
+#heading2,#heading3,#heading4{
+    background-color:#ac70885d;
+    font-size: 1.2rem;
+    height:5rem ;
+    font-family: 'Space Grotesk', sans-serif;
+   
+    
+}
+#data1:hover,#data2:hover,#data3:hover,#data4:hover,#data5:hover,#data6:hover,#data7:hover,#data8:hover,#data9:hover,#data10:hover,#data11:hover,#data12:hover,#data13:hover,#data14:hover,#data15:hover{
+    background-color: #ac70888e;
+    border:#AC7088 solid 2px;
+    
+
+}
+#data1,#data2,#data3,#data4,#data5,#data6,#data7,#data8,#data9,#data10,#data11,#data12,#data13,#data14,#data15{
+
+    text-align: center;
+}
+.line1{
+    margin-bottom:2rem ;
+}
+#projects{
+    border-top: rgba(0, 0, 0, 0.22) solid 1px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+padding:2rem;
+    color:#AC7088 ;
+    font-size: 3rem;
+    text-shadow:0.2rem 0.2rem 0.2rem  #AC7088;
+    
+}
+.proj1{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#proima{
+    height: 20rem;
+    width: 30rem;
+    margin-left: 3px;
+    margin-top: 3px;
+    
+}
+.out{
+    outline:#ac7088c7 4px solid;
+    height:23rem ;
+    width:30.5rem;
+    border-radius:2% ;
+    outline-offset: 3px;
+}
+#front-end{
+    text-align: center;
+    color: #AC7088;
+    font-weight: bold;
+    
+}
+#description{
+    float:right;
+    margin-top:-23rem ;
+    height: 20rem;
+    width: 40rem;
+    line-height:2rem ;
+   
+
+}
+
+#desin{
+    padding: 2rem;
+    
+
+}
+#getin{
+    line-height: 2.5rem;
+    color: #AC7088;
+    font-family: 'Space Grotesk', sans-serif;
+}
+#details{ 
+    list-style-type: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+
+}
+#details li::before{
+    content: "\25AA"; color:#AC7088;
+    display: inline-block; width: 1em;
+    margin-left: -1em;
+    font-weight: bold;
+    font-size:1rem ;
+    
+}
+.proj2{
+    margin-left: 0rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+#proima2{
+    height: 20rem;
+    width: 30rem;
+    margin-left: 3px;
+    margin-top: 3px;
+    
+}
+.out2{
+    outline:#ac7088c7 4px solid;
+    height:23rem ;
+    width:30.5rem;
+    border-radius:2% ;
+    outline-offset: 3px;
+    float: left;
+}
+#front-end2{
+    text-align: center;
+    color: #AC7088;
+    font-weight:bold;
+
+
+}
+#description2{
+    float:right;
+    
+    height: 20rem;
+    width: 40rem;
+    line-height:2rem ;
+   
+
+}
+
+#desin2{
+    padding: 2rem;
+    
+
+}
+#getin2{
+    line-height: 3rem;
+    color: #AC7088;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+#details2{ 
+    list-style-type: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+
+}
+#details2 li::before{
+    content: "\25AA"; color:#AC7088;
+    display: inline-block; width: 1em;
+    margin-left: -1em;
+    font-weight: bold;
+    font-size:1rem ;
+    
+}
+
+.margin{
+    margin-top: 30rem;
+    border-bottom: rgba(0, 0, 0, 0.22) solid 1px;
+    
+}
+#otherskills{
+    border-top: rgba(0, 0, 0, 0.22) solid 1px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+padding:2rem;
+    color:#AC7088 ;
+    font-size: 3rem;
+    text-shadow:0.2rem 0.2rem 0.2rem  #AC7088;
+    
+}
+.fa-headphones{
+    color: #AC7088;
+    
+    height: 13rem;
+    width: 15rem;
+    background-repeat: no-repeat;
+    display:flex ;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding-top:3rem
+
+}
+#skills{
+    margin-left: 0rem;
+    margin-right: 3rem;
+    display: flex;
+    
+
+}
+#icb{
+    border: #AC7088 solid 3px;
+    width: 15rem;
+    height:16rem;
+    border-radius: 2%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+/* music box */
+#music{
+    text-align: center;
+    background: #AC7088;
+    color: white;
+    height:2.6rem ;
+    padding-top: 0.5rem;
+    font-family: 'Orbitron', sans-serif;
+}
+#achievements{
+   
+    text-align: center;
+    font-family: 'Play', sans-serif;
+padding:2rem;
+    color:#AC7088 ;
+    font-size: 3rem;
+    text-shadow:0.2rem 0.2rem 0.2rem  #AC7088;
+    
+}
+#aciv1,#aciv2,#aciv3,#aciv4{
+    margin-left: 2rem;
+    margin-right: 2rem;  
+    font-family: 'Space Grotesk', sans-serif;
+    background: #ac70885c;
+    font-size:1.8rem ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;  
+    padding:1.5rem;
+    width:50rem ;
+    text-align: center;
+    border-radius: 10%;
+    font-weight: 500;
+    
+    
+
+}
+#aciv1,#aciv3{
+    float: left;
+    border:#AC7088 solid 5px; 
+border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+#aciv2,#aciv4{
+    float:right ;
+    border:#AC7088 solid 5px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+#aciv1{
+    
+    text-align: center;
+    padding:1.5rem;
+}
+   
+.fa-duotone{
+   
+   padding: 0.5rem;
+    color: white;
+    background-color: #AC7088;
+    border-radius: 50%;
+    
+   
+    
+  
+}
+.footer{
+    margin-top:80rem ;
+    height: 10rem;
+    width: 100%;
+    background: #AC7088;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+
+
+}
+.fix{
+    position: fixed;
+    margin-top: -6rem;
+
+}
+.fini{
+    margin-top: 6rem;
+}

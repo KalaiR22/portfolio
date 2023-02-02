@@ -1,0 +1,42 @@
+#box1,#box2{
+    height:40rem;
+    width: 3rem;
+    margin-left: 5rem;
+    display:inline-block ;
+    background-attachment: fixed;
+}
+#box1{
+    background-color:rgba(12,191,171,0.2665441176470589)  ;
+    
+    transform:skewX(-50deg) 
+    
+}
+#box2{
+    background-color:rgba(12,191,171,0.2665441176470589)  ;
+    transform:skewY(50deg);
+}
+body{
+    background-color:white;
+}
+#box3,#box4{
+    height:10rem;
+    width: 10rem;
+    margin-left: 5rem;
+     ;
+}
+#box3{
+    background-color:#ac70885e;
+    transform:rotateZ(55deg);
+    margin-right: 5rem;
+    margin-top: 2rem;
+    
+    
+    
+}
+#box4{
+    height: 10rem;
+    background-color:#ac70885c;
+    border-radius: 50%;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
